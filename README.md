@@ -3,7 +3,12 @@
 My vim configuration.
 
 ##Setup
-This directory should be cloned into ~/.vim.
+This directory should be recursively cloned into ~/.vim. Eg.
+
+```
+git clone --recursive git@github.com:jamesharv/myvim.git ~/.vim
+```
+
 Then symlinks should be created for .vimrc and .gvimrc as follows
 
 ```
