@@ -1,1 +1,1 @@
-../bundle/DBGp-client/plugin/debugger.py
+../bundle/DBGp-Remote-Debugger-Interface/plugin/debugger.py

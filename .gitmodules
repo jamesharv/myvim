@@ -25,12 +25,12 @@
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate
-[submodule "bundle/DBGp-client"]
-	path = bundle/DBGp-client
-	url = git@github.com:vim-scripts/DBGp-client.git
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = git@github.com:terryma/vim-multiple-cursors.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git@github.com:msanders/snipmate.vim.git
+[submodule "bundle/DBGp-Remote-Debugger-Interface"]
+	path = bundle/DBGp-Remote-Debugger-Interface
+	url = https://github.com/vim-scripts/DBGp-Remote-Debugger-Interface.git
