@@ -195,3 +195,6 @@ set tags=php.tags
 
 " Activate pathogen plugin
 call pathogen#infect() 
+
+" Don't limit the number of files that CTRLP will find.
+let g:ctrlp_max_files=0
