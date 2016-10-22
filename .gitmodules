@@ -34,3 +34,9 @@
 [submodule "bundle/DBGp-Remote-Debugger-Interface"]
 	path = bundle/DBGp-Remote-Debugger-Interface
 	url = https://github.com/vim-scripts/DBGp-Remote-Debugger-Interface.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
