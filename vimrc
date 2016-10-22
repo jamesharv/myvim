@@ -176,6 +176,7 @@ map <leader>11 <F11>
 map <leader>12 <F12>
 
 nnoremap <leader>c :!drush cc all<CR>
+nnoremap <leader>scr :!drush scr %:h/%<CR>
 
 " Automatically expand <CR>
 let delimitMate_expand_cr = 1
@@ -198,3 +199,15 @@ call pathogen#infect()
 
 " Don't limit the number of files that CTRLP will find.
 let g:ctrlp_max_files=0
+
+" Debugger settings.
+let g:debuggerPort = 9001
+let g:debuggerMaxDepth = 10
+let g:debuggerTimeout = 30
+
+if filereadable(".vimrc")
+    so .vimrc
+endif
+
+" Use the system clipboard.
+set clipboard=unnamed
