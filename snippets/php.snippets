@@ -26,3 +26,23 @@ snippet file
 	 * ${1:comment}
 	 */
 	${2}
+snippet getter
+	/**
+	 * Returns ${1:propertyName}.
+	 *
+	 * @return ${2:type}
+	 *   ${3:description}.
+	 */
+	public function get${4:capitalize}() {
+		return $this->$1;
+	}
+
+	/**
+	 * Sets $1.
+	 *
+	 * @param $2 $${5:underscores}
+	 *   $3.
+	 */
+	public function set$4($$5) {
+		$this->$1 = $5;
+	}
