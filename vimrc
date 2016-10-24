@@ -200,10 +200,8 @@ call pathogen#infect()
 " Don't limit the number of files that CTRLP will find.
 let g:ctrlp_max_files=0
 
-" Debugger settings.
-let g:debuggerPort = 9001
-let g:debuggerMaxDepth = 10
-let g:debuggerTimeout = 30
+" Example Vdebug settings.
+" let g:vdebug_options['path_maps'] = {"/portal/docroot": "/Users/productteam/THEPORTAL/docroot"}
 
 if filereadable(".vimrc")
     so .vimrc
