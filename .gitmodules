@@ -43,3 +43,9 @@
 [submodule "bundle/vdebug"]
 	path = bundle/vdebug
 	url = https://github.com/joonty/vdebug.git
+[submodule "bundle/youcompleteme"]
+	path = bundle/youcompleteme
+	url = https://github.com/valloric/youcompleteme
+[submodule "bundle/phpcomplete"]
+	path = bundle/phpcomplete
+	url = git://github.com/shawncplus/phpcomplete.vim.git
