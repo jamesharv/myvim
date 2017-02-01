@@ -188,6 +188,10 @@ au BufRead,BufNewFile *.profile set filetype=php
 au BufRead,BufNewFile *.inc set filetype=php
 au BufRead,BufNewFile *.info set filetype=info
 
+" Filetype for JSON-LD
+au BufRead,BufNewFile *.json set filetype=javascript
+au BufRead,BufNewFile *.jsonld set filetype=javascript
+
 " Drupal coding standards with phpcs
 let g:syntastic_php_phpcs_args ="--standard=Drupal --extensions=php,module,inc,install,test,profile,theme --report=csv"
 
